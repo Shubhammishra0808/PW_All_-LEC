@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ /*.box {
+     transition-duration: 5s;
+    transition-property: all;
+     transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+
+    /* width: 300px;
+    height: 400px;
+    background-color: cadetblue;
+      / animation-name: shub;
+   animation-duration: 0.8s;
+   
+   animation-iteration-count: infinite;
+} */
+/* .box:hover{
+     background-color: rgb(255, 32, 69);
+     transition-timing-function: ease-out;
+    width: 1000px;
+    transform: translate(100px, 200px) scale(5); 
+
+
+}  */
+/* @keyframes shub {
+    from{
+        background-color: rgb(160, 28, 221);
+    }
+    to{
+        background-color: rgb(243, 90, 34);
+    }
+} */
+@keyframes shub {
+
+    
+    0% {
+        background-color: red;
+    }
+
+    14.28% {
+        background-color: orange;
+    }
+
+    28.57% {
+        background-color: yellow;
+    }
+
+    42.85% {
+        background-color: green;
+    }
+
+    57.14% {
+        background-color: blue;
+    }
+
+    71.42% {
+        background-color: indigo;
+    }
+
+    85.71% {
+        background-color: violet;
+    }
+
+    100% {
+        background-color: red;
+        transform: translate(100px,200px) scale(3);
+    }
+    
+}
+
+
+/* .a{
+    
+transition-timing-function: ease;
+}
+.b{
+transition-timing-function: ease-in;
+}
+.c{
+transition-timing-function: ease-in-out;
+}
+.d{
+transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.e{
+transition-timing-function: ease;
+} */
+button{
+    padding: 40px 40px;
+    margin: 60px 60px ;
+    background-color: aquamarine;
+    border-radius: 30px;
+    transition: all 4s linear;}
+
+/* button:hover{
+    background-color: deeppink;
+    transition: all 4s linear;
+    transform: translate(100px,150px) scale(2);
+    cursor: pointer;
+    box-shadow: 10px 10px 100px rgba(226, 26, 26, 0.438);
+} */

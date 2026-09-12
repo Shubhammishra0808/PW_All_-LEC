@@ -1,0 +1,25 @@
+h2{
+     font-size: 40px;
+    font-family: "Cedarville Cursive";
+}
+h1{
+     font-size: 30px;
+    font-family:"Bpmf Zihi Kai Std" ;
+}
+h3{
+     font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.cedarville-cursive-regular {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.bpmf-zihi-kai-std-regular {
+  font-family: "Bpmf Zihi Kai Std", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h4{
+    font-size: 80px;
+}

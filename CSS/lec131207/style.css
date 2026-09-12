@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+h1{
+    border: 2px solid red;
+     height: 40px;
+    width: 900px;
+}
+
+.box{
+    display: inline-block;
+    border: 2px solid red;
+    height: 50px;
+    width: 100px;
+    margin-top: 20px;
+   
+    position: relative;
+    background-color: aquamarine;
+    /* left: 50px; 
+    position: absolute; */
+}
+#wrapper{
+ border: 10px solid black;
+ height: 100vh;
+ width: 100vw;
+  padding: 50px;
+  position: relative;
+}
+#b3{
+   position: sticky;
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+
+     /* top: 0PX;
+    left: 270PX; */
+    
+}

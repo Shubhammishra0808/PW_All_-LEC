@@ -1,0 +1,39 @@
+/* 
+control + k + c = comment 
+#rap{
+    height: 500px;
+    width: 1300px;
+    background: linear-gradient(to right, rgb(197, 81, 81),rgb(91, 245, 173),pink,blue,yellow);
+
+}
+#r{
+    height: 500px;
+    width: 1300px;
+    background:radial-gradient(circle,rgb(223, 29, 187),rgb(235, 101, 101),green)
+
+}
+#ap{
+    height: 500px;
+    width: 1300px;
+    background: conic-gradient(red,yellow,green );
+
+} */
+ /* #ap{
+    height: 500px;
+    width: 1300px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx7gOTtN6y9nyUoUeHmCgrRKYdWMCYEBB74a3-NIzcTg&s=10);
+
+}
+#r{
+    height: 500px;
+    width: 1300px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAmzeWggZ7hNWd0LFvKrIyalV7WNaG4baXdGvgbrEHsw&s=10);
+    background-size: contain;
+} */
+ #rap{
+ border: 3px solid rgb(193, 39, 227);
+    border-radius: 20px; 
+    height: 500px;
+    padding: 20px;
+    margin: 30px ;
+ }

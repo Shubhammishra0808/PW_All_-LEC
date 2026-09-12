@@ -1,0 +1,42 @@
+p {
+    background-color: rgb(137, 246, 70);
+    font-size: 40px;
+}
+
+h1 {
+    margin: 10px;
+  text-align: center;
+    font-size: 90px;
+    background: linear-gradient(to right, red, pink, yellow, blue);
+}
+
+h2 {
+    margin: 10px;
+   text-align: center;
+    font-size: 90px;
+    background: radial-gradient(Circle, rgb(205, 68, 187), rgb(75, 176, 210) ,rgb(65, 233, 149));
+
+}
+h3 {
+        margin: 10px;
+        /* color: white; */
+       text-align: center;
+    font-size: 90px;
+        background: conic-gradient( rgb(214, 41, 202), rgb(227, 227, 59), rgb(35, 103, 212));
+    }
+h4{ margin: 10px;
+  
+    text-align: center;
+    font-size: 90px;
+    background: linear-gradient(to top, red, pink, yellow, rgba(230, 58, 218, 0.898));
+    }
+h5{
+        margin: 10px;
+        color: white;
+       text-align: center;
+    font-size: 90px;
+        background: conic-gradient( rgb(214, 41, 202), rgb(227, 227, 59), rgb(35, 103, 212));
+    }
+   body{
+    background-color: rgba(0, 0, 0, 0.605);
+   }

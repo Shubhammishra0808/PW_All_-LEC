@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.griditems{
+    background-color: aquamarine;
+    border: 2px solid black;
+}
+.wrap{
+   display: grid; 
+   /* width: 50vw; */
+   width: 1000px;
+   min-height: 50vh;
+   margin: auto;
+  grid-template-columns: repeat(3,1fr);
+ border: 2px solid black;
+
+   
+}
+.item1{
+    grid-column: 1/4 ;
+}
+
+.item2{
+   grid-row: 2/4;
+}
+
+.item7{
+   grid-column: 1/4;
+}

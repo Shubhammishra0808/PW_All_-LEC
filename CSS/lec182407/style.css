@@ -1,0 +1,24 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.grid_container{
+    background-color: aquamarine;
+    border: 2px solid black;
+    height: 100px;
+}
+.wrap{
+   display: grid; 
+   /* width: 50vw; */
+   width: 1000px;
+   height: auto;
+   margin: auto;
+   grid-template-columns: 2fr 1fr 1fr ;
+   /* grid-template-columns: 200px 300px 400px 500px 600px; */
+ border: 2px solid black;
+    /* gap: 10px; */
+    /* row-gap: 1px; */
+    /* column-gap: 30px; 
+    grid-template-rows: 1fr 2fr 2fr; */
+}

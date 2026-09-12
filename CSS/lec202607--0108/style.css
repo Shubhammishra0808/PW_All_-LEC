@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    height: 100vh;
+    width: 100vh;
+    background-color: rgb(235, 148, 34);
+
+
+} 
+@media (max-width:575px) {
+
+    .wrapper{
+        background-color: cadetblue;
+    }
+    
+}
