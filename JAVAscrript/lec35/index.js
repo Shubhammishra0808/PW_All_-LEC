@@ -55,3 +55,10 @@
 let age = 25;
 let text = (age < 18) ?  "Minor" : "Adult";
 console.log(text)
+function counter(){
+    let count=0
+    count+=1
+    console.log(count)
+}
+counter()
+counter()

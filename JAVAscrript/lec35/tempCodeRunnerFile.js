@@ -1,1 +1,1 @@
-console.log(b)
+let count=2

@@ -1,4 +1,4 @@
-let prod =["Subh",56899 ,"Btech",551,"Raaaa","Hello"]
+// let prod =["Subh",56899 ,"Btech",551,"Raaaa","Hello"]
 // let prod ={
 //     name:"Subh",
 //     sall:56899,
@@ -55,24 +55,27 @@ let prod =["Subh",56899 ,"Btech",551,"Raaaa","Hello"]
 // for(value in prod){
 //     console.log(value)
 // }
-let prod1 ={
-    name:"Subh",
-    sall:56899,
-    course:"Btech",
-    551:"Raaaa",
-    'Sub':"Hello",
-    p_name:function(){
-         console.log("Hello")
-        console.log(this.name)
+// let prod1 ={
+//     name:"Subh",
+//     sall:56899,
+//     course:"Btech",
+//     551:"Raaaa",
+//     'Sub':"Hello",
+//     p_name:function(){
+//          console.log("Hello")
+//         console.log(this.name)
        
         
-    },
-    print_dis(){
-        console.log("10%")
-    }
-}
+//     },
+//     print_dis(){
+//         console.log("10%")
+//     }
+// }
 // for(value in prod1){
 //     console.log(value)
 // }
-let {price,name,sall}=prod1
-console.log(price,name,sall)
+// let {price,name,sall}=prod1
+// console.log(price,name,sall)
+
+const [a,b,c,d] = ["Subh", 56899, "Btech", 551, "Raaaa", "Hello"]
+console.log(a,b,d);
